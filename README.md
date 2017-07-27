@@ -5,7 +5,7 @@ This **README File** describes and demonstrates how to run a phyton file that po
 ## First Dowloads
 Before running the python file fresh_tomatoes to show your favorite movies, there are 3 downloads that will need to be saved:
 
-* fresh_tomatoes.py
+* [fresh_tomatoes.py](https://s3.amazonaws.com/udacity-hosted-downloads/ud036/fresh_tomatoes.py)
 * media.py
 * entertainment_center.py
 
@@ -19,8 +19,7 @@ This python file determines the class Movie() by first importing webbrowseclass 
 ### 2 - entertainment_center.py
 This python file imports the _media.py_, class Movie() that was defined and imports the fresh_tomatoes.py 
     that needed to be downloaded previously.
-    * _(you can download this in Lesson 9, in the instructor notes.  Ensure that you save in the same folder 
-       where theother files were saved.)_
+    * _(Ensure that you save in the same folder where theother files were saved.)_
 This file is where you input your favorite movies as variables, defining the name of the movie, story line, 
     poster image and youtube trailer.  
 * An example of a favorite movie variable:       
