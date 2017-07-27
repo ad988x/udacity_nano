@@ -11,13 +11,13 @@ Before running the python file fresh_tomatoes to show your favorite movies, ther
 
 ## Descriptions of Files
 ### 1 - media.py
-This python file determines the class Movie() by first importing webbrowseclass with:
-*  Defining the initializating the movie title, story line, poster and youtube trailer.  
+This python file determines the class Movie() by first importing the **webbrowseclass** with:
+*  Defining the **__init__** the movie title, story line, poster and youtube trailer.  
 *   After defining _init_, then defining the **show_trailer** from the movie title, 
           opening the url of the youtube movie trailer.
        
 ### 2 - entertainment_center.py
-This python file imports the _media.py_, class Movie() that was defined and imports the fresh_tomatoes.py 
+This python file imports the **media.py**, class Movie() that was defined and imports the fresh_tomatoes.py 
     that needed to be downloaded previously.
     _(Ensure that you save in the same folder where theother files were saved.)_
 This file is where you input your favorite movies as variables, defining the name of the movie, story line, 
