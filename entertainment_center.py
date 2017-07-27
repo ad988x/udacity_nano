@@ -39,3 +39,4 @@ movies = [ca_first_avenger, avengers, ca_civil_war, thor_ragnarok, guardians_2]
 """Create a variable list with all the movie names"""
 
 fresh_tomatoes.open_movies_page(movies)
+
