@@ -1,10 +1,10 @@
 # How to Run Fresh_Tomatoes
 
-This **README File** describes and demonstrates how to run a phyton program that poplulates your favorite movies posters, storyline and trailer in a _URL_.
+This **README File** describes and demonstrates how to run a phyton file that poplulates your favorite movies posters, storyline and trailer in a _URL_.
 
 ## First Dowloads
 
-Before running the python program fresh_tomatoes to show your favorite movies, there are 3 downloads that will need to be saved:
+Before running the python file fresh_tomatoes to show your favorite movies, there are 3 downloads that will need to be saved:
 ```
 ~ fresh_tomatoes.py
 ~ media.py
@@ -13,7 +13,23 @@ Before running the python program fresh_tomatoes to show your favorite movies, t
 
 ## Descriptions of Programs
 
-### 1 - Media.py
-    This python program determines the class Movie() by first importing webbrowseclass with:
+### 1 - media.py
+    This python file determines the class Movie() by first importing webbrowseclass with:
         ~ Defining the initializating the movie title, story line, poster and youtube trailer.  
-        ~ After defining __init__, then defining the **show_trailer**
+        ~ After defining __init__, then defining the **show_trailer** from the movie title, opening the url of the
+          youtube movie trailer.
+          
+### 2 - entertainment_center.py
+    This python file imports the _media.py_, class Movie() that was defined and imports the fresh_tomatoes.py 
+    that needed to be downloaded previously.
+        _(you can download this in Lesson 9, in the instructor notes.  Ensure that you save in the same folder 
+          where theother files were saved.)_
+    This file is where you input your favorite movies as variables, defining the name of the movie, story line, 
+    poster image and youtube trailer.  An example of a favorite movie variable:
+    ```
+    guardians_2 = media.Movie("Guardians of the Galaxy Vol.2", "Guardians come"
+                          " back to face Peters Dad",
+                          "https://upload.wikimedia.org/wikipedia/en/9/95"
+                          "/GotG_Vol2_poster.jpg",
+                          "https://www.youtube.com/watch?v=2cv2ueYnKjg")
+    ```
