@@ -11,7 +11,7 @@ Before running the python file fresh_tomatoes to show your favorite movies, ther
 
 ## Descriptions of Files
 ### 1 - media.py
-This python file determines the class Movie() by first importing the **webbrowseclass** with:
+This python file determines the class Movie() by first importing **webbrowse** with:
 *  Defining the **__init__** the movie title, story line, poster and youtube trailer.  
 *   After defining _init_, then defining the **show_trailer** from the movie title, 
           opening the url of the youtube movie trailer.
