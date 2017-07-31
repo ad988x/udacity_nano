@@ -1,4 +1,4 @@
-import webbrowse
+import webbrowser
 
 class Movie():
     
